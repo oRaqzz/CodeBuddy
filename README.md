@@ -1,7 +1,6 @@
 # CodeBuddy
 
-CodeBuddy is a small ESP32-powered device that uses AI to explain code snippets directly on an OLED display. Without constatnly having to visit LLM to understand code.
-
+CodeBuddy is a small ESP32-powered device that uses AI to explain code snippets directly on an OLED display.
 
 ---
 ## Features
@@ -10,16 +9,6 @@ CodeBuddy is a small ESP32-powered device that uses AI to explain code snippets 
 * Explain functions and programming keywords
 * One-button operation
 * Powered by ESP32 and GROQ AI
-
-## How It Works
-
-1. The ESP32 sends an HTTP request to a Python Flask server running on your PC.
-2. The Python server reads the current clipboard content.
-3. The server sends the content to an LLM (GROQ API).
-4. The LLM generates a short explanation.
-5. The response is sent back to the ESP32.
-6. The explanation is displayed on the OLED screen.
-
 ---
 
 ## How to Use
